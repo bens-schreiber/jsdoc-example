@@ -1,5 +1,16 @@
 // https://jsdoc.app
 
+/** 
+ * @constant
+ * @type {number}
+ */
+const someGlobalConst = 1
+
+/**
+ * @global
+ * @type {string}
+ */
+var someGlobalVar = "hello"
 
 /**
  * Adds two numbers
@@ -20,7 +31,7 @@ function add(a, b) {
  * add(1, 2)
  * @returns {number}
  */
-const add = (a, b) => a + b
+const _add = (a, b) => a + b
 
 /**
  * Enum for tri-state values.
@@ -78,3 +89,4 @@ class Point {
 class Dot extends Point {
     // ...
 }
+
